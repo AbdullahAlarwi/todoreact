@@ -1,0 +1,111 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.box {
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid rgb(27, 18, 18);
+  padding: 30px;
+  background-color: rgb(37, 26, 26);
+  color: white;
+}
+
+.mydiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  border: 1px solid black;
+  overflow-y: auto;
+  height: 200px; /* تحديد الطول المطلوب */
+  overflow-y: auto; /* سكرول عمودي يظهر عند الحاجة */
+  border: 1px solid #ccc; /* إطار لتوضيح العنصر */
+  padding: 10px;
+}
+
+.mydiv li {
+  width: 400px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.inputSection {
+  margin-bottom: 70px;
+  align-items: center;
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+  font-size: 20px;
+
+  color: rgb(255, 7, 7);
+}
+.notdone {
+  color: rgb(29, 139, 5);
+  font-size: 30px;
+  font-weight: bold;
+}
+.done {
+  text-decoration: line-through;
+  color: rgb(224, 31, 31);
+}
+
+.notdone {
+  color: rgb(17, 223, 120);
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.inputSection {
+  margin-bottom: 20px;
+}
+
+.mydiv {
+  margin-top: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+.myitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  background-color: red;
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
